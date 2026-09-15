@@ -23,6 +23,7 @@
 ## 이론과의 연결
 
 - P01·P02 ↔ [01-workflows-and-agents](../01-workflows-and-agents/)
+- P03·P04 ↔ [02-tool-calling-and-mcp](../02-tool-calling-and-mcp/)
 
 ## 메모
 
