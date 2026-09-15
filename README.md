@@ -7,6 +7,7 @@ LLMOps 강의를 들으며 나온 **보충자료와 실습코드**를 회차별�
 | 회차 | 주제 | 내용 |
 |---|---|---|
 | 01 | [Workflows & Agents](01-workflows-and-agents/) | 워크플로 vs 에이전트, 대표 패턴 6가지, 에이전트의 3요소(메모리·도구·계획), LangGraph 입문 |
+| 02 | [Tool Calling & MCP](02-tool-calling-and-mcp/) | 함수 호출 흐름·스키마, MCP 구조(Host/Client/Server)와 도입 이유, Tool Poisoning 보안 |
 
 ### 실습 트랙
 
