@@ -14,7 +14,8 @@ LLM_OPS/
     ├── resources.md          # 보충·검토 자료 링크와 한 줄 설명
     └── code/                 # 실습코드 (있을 때만). 실행법은 README에
 practices/PNN-이름/           # 강사 실습 노트북 원본 + (선택) 내 정리 README.md
-study/PNN-이름/               # 내가 공부하며 내용을 추가한 노트북 (practices/ 원본은 그대로 둔다)
+study/PNN-이름/               # 내가 공부하며 만든 자료: 내용 추가한 노트북, 공부 가이드 .md (practices/ 원본은 그대로 둔다)
+                              # 깨달은 핵심 한두 줄은 해당 회차 README에 적고, 서로 링크한다
 offline/                      # 오프라인 수업 실습 기록
 ```
 

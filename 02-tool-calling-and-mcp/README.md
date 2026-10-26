@@ -2,8 +2,11 @@
 
 > 2회차 보충·검토자료 정리. 자료 원문은 [resources.md](resources.md) 링크 참고.
 > 실습: [P03 tool-calling](../practices/P03-tool-calling/) · [P04 mcp](../practices/P04-mcp/)
+> 공부 정리: [Tool Calling & Pydantic 가이드](../study/P03-tool-calling/tool-calling-and-pydantic-guide.md) (P03을 공부하며 정리)
 
 ## 1. 한 줄 요약
+
+- **왜 도구가 필요한가 (P03 하며 깨달은 것)**: LLM은 말 그대로 **언어모델**이다. 할 수 있는 건 글자(토큰)를 만드는 것뿐이라, 실시간 정보 조회·계산·파일이나 시스템 조작은 스스로 못 한다. 도구가 없으면 할 수 있는 게 거의 없고, 도구를 줘야 그 "말"이 실제 행동으로 이어진다.
 
 - **Tool Calling**: LLM은 함수를 *직접 실행하지 않는다*. "이 함수를 이 인자로 불러줘"라는 **요청(JSON)** 만 만들고, 실행은 내 코드가 한다.
 - **MCP**: 그 도구들을 **어디서 어떻게 연결할지를 표준화한 프로토콜**. 도구가 에이전트 코드 밖(서버)으로 빠진다.
