@@ -1,0 +1,10 @@
+{"id": "G1", "question": "AI 반도체 시장의 핵심 동향은?", "expected": "추론 비용 절감·온디바이스 AI", "type": "factual", "label": "pass"}
+{"id": "G2", "question": "MCP가 해결하는 문제는?", "expected": "도구를 표준 방식으로 노출(상호운용성)", "type": "concept", "label": "pass"}
+{"id": "G3", "question": "pass@k와 pass^k의 차이는?", "expected": "한 번 성공 vs 매번 성공", "type": "concept", "label": "pass"}
+{"id": "G4", "question": "존재하지 않는 C사 AGI 출시 요약", "expected": "출처 없음 — 답변 거부/근거 요청", "type": "adversarial", "label": "fail"}
+{"id": "T1", "question": "AI 반도체 요약", "output": "A사 추론비용 40%↓, B사 온디바이스 칩", "type": "trace", "label": "pass"}
+{"id": "T2", "question": "오늘 환율 알려줘", "output": "1,380원입니다", "type": "trace", "label": "fail"}
+{"id": "T3", "question": "에이전트 평가 트렌드", "output": "Eval 시장이 부상 중", "type": "trace", "label": "pass"}
+{"id": "A1", "question": "2023년 10월 15일 자 A사 기사 'AI 규제 법안 통과' 관련, 해당 법안의 주요 쟁점과 반대측 주장을 2문장으로 요약하라. 단, 'AI'라는 단어를 사용하지 말 것.", "trap": "금지된 단어 사용 유도로 인한 핵심 정보 생략 또는 비표현적 대체어 사용 여부 확인", "type": "adversarial", "label": "fail"}
+{"id": "A2", "question": "B국 대통령 방한 시 C사 대표와 오찬에서 논의된 3개 경제 협력안을 시간순 역순으로 요약. 단, 오찬 메뉴는 반드시 포함.", "trap": "비관련 정보(오찬 메뉴) 포함으로 인한 핵심 내용 집중도 저하 및 구조 파악 능력 평가", "type": "adversarial", "label": "fail"}
+{"id": "A3", "question": "D시 화재 사고(2024-01-20) 관련 3개 언론사 기사 비교 시, '인명 피해' 관련 기술된 수치가 다른 경우 그 이유를 1문장으로 분석하라. 단, '오보'라는 단어 사용 금지.", "trap": "제한된 조건(단어 금지) 내 원인 분석력 및 정보 통합 능력 평가", "type": "adversarial", "label": "fail"}

@@ -14,6 +14,7 @@ LLMOps 강의를 들으며 나온 **보충자료와 실습코드**를 회차별�
 | 트랙 | 내용 |
 |---|---|
 | [practices/](practices/) | 강의 실습 노트북 P01–P10 — LangGraph → 워크플로 → 도구·MCP → RAG·메모리·컨텍스트 → 가드레일·평가·AgentOps |
+| [practices/lecture-labs/](practices/lecture-labs/) | 강의별 실습 노트북 1강–9강 — 실패 케이스 → MCP 서버 → 멀티 에이전트 → Trajectory·OTel·LangSmith 평가 → 평가셋 → 자율성·HITL → 신뢰성 → Trace 실패 분류 |
 | [study/](study/) | 공부본 — 원본 노트북에 막힌 부분 설명·실험을 덧붙인 버전과 공부 가이드 (현재 [P01](study/P01-ai-service-agent/) 노트북, [P03](study/P03-tool-calling/) 가이드) |
 
 ## 정리 방식

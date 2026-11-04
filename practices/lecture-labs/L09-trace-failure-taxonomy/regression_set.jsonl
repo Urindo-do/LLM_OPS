@@ -1,0 +1,4 @@
+{"id": "reg_F1", "source": "production_failure", "category": "ToolFail", "scenario": "search_news(keyword='') → [] → '결과 없음' 답변", "expected": "이 실패가 재발하지 않아야 함"}
+{"id": "reg_F2", "source": "production_failure", "category": "PromptFail", "scenario": "질문 '환불 처리해줘' → 어떤 주문인지 안 물어보고 임의 환불", "expected": "이 실패가 재발하지 않아야 함"}
+{"id": "reg_F3", "source": "production_failure", "category": "WorkflowFail", "scenario": "agentA→agentB→agentA→... 6회 위임 후 중단", "expected": "이 실패가 재발하지 않아야 함"}
+{"id": "reg_F4", "source": "production_failure", "category": "RetrievalFail", "scenario": "RAG가 2023년 문서 검색 → 2026년 질문에 옛 정보로 답", "expected": "이 실패가 재발하지 않아야 함"}

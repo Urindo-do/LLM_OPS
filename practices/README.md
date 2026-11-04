@@ -20,6 +20,10 @@
 | 운영하기 | P09 | [evaluation](P09-evaluation/) | LangSmith 데이터셋·메트릭·Evaluator, Chat/RAG 평가 | langsmith |
 | 운영하기 | P10 | [agentops](P10-agentops/) | pytest로 에이전트 행동 테스트(off-topic·검색 쿼리·멀티툴), LangSmith 대시보드 | pytest, langsmith |
 
+## 강의별 실습 (1강–9강)
+
+강의 회차에 맞춘 별도 실습 묶음(실패 케이스·MCP 서버·멀티 에이전트·평가·관측·자율성·신뢰성)은 [lecture-labs/](lecture-labs/)에 있다.
+
 ## 이론과의 연결
 
 - P01·P02 ↔ [01-workflows-and-agents](../01-workflows-and-agents/)
